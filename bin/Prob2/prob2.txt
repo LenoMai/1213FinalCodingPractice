@@ -1,5 +1,0 @@
-Create an abstract class Mammal. Create two concrete classes that inherit this class.
-Create a Zoo object that will contain Mammals, and create at least 5 different Mammal
-objects it will store. In a main method, print info for all the Mammal objects, accessed
-through a Zoo object
-
