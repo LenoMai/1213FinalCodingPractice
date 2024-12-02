@@ -9,8 +9,7 @@ public class csvHandler implements FileHandler {
 
     @Override
     public void readFile(File filename) throws IOException {
-        BufferedReader reader = null;
-        reader = new BufferedReader(new FileReader(filename));
+        BufferedReader reader = new BufferedReader(new FileReader(filename));
         String line;
         while ((line = reader.readLine()) != null) {
             String[] values = line.split(",");
